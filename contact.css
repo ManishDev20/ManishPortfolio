@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin-top: 120px;
+  background-color: #000;
+}
+.main-container {
+  width: 100%;
+}
+
+form {
+  width: 30%;
+  height: 500px;
+  margin: auto;
+  border: 2px solid #474b46;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #282a27;
+  background-color: white;
+}
+label {
+  font-weight: 600;
+  color: #171717;
+}
+form div {
+  margin-left: 20px;
+}
+.form-head {
+  text-align: center;
+  margin: 20px auto 50px;
+  color: #000000;
+}
+input {
+  display: block;
+  margin: 10px 0;
+  width: 60%;
+  height: 30px;
+  padding: 0 5px;
+}
+textarea {
+  padding: 2px 5px;
+  width: 60%;
+  height: 60px;
+  display: block;
+  margin: 10px 0 50px;
+}
+
+button {
+  font-size: 18px;
+  padding: 5px 15px;
+  font-weight: 500;
+  font-family: "roboto", sans-serif;
+  color: #000;
+  background-color: #1aff00;
+  border: none;
+  border-radius: 5px;
+}
